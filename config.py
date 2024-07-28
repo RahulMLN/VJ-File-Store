@@ -64,7 +64,7 @@ SHORTLINK_URL = environ.get("SHORTLINK_URL", "instantlinks.co") # shortlink doma
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/RAS_HOW_TO_DOWNLOAD_FILE/12") # how to open link 
 
 # Website Info:
-WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
+WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or False
 
 # If Website Url Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 WEBSITE_URL = environ.get("WEBSITE_URL", "https://rasmovieras.blogspot.com/2024/07/blog-post.html") # For More Information Check Video On Yt - @Tech_VJ
